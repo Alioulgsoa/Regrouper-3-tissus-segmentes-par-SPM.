@@ -24,7 +24,7 @@ for i=1:size(H,1)
     for j=1:size(H,2)
         for k=1:size(H,3)
             if (H(i,j,k)==1)
-            SB(i,j,k)= 0 ;
+                SB(i,j,k)= 0 ;
             else
                 SB(i,j,k)= 2 ;
             end
@@ -38,7 +38,7 @@ for i=1:size(G,1)
     for j=1:size(G,2)
         for k=1:size(G,3)
             if (G(i,j,k)==1)
-            SG(i,j,k)= 0 ;
+                SG(i,j,k)= 0 ;
             else
                 SG(i,j,k)= 3 ;
             end
@@ -52,7 +52,7 @@ for i=1:size(K,1)
     for j=1:size(K,2)
         for k=1:size(K,3)
             if (K(i,j,k)==1)
-            LCS(i,j,k)= 0 ;
+                LCS(i,j,k)= 0 ;
             else
                 LCS(i,j,k)= 1 ;
             end
