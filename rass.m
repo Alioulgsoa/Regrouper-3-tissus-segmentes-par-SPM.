@@ -65,4 +65,4 @@ img= zeros(size(H));
 %rassabbler les images
 img = SB+SG+LCS ;
 %ecrire l'image 
-niftiwrite(img,'simul3_brainweb_b3n1_seg.nii');
+niftiwrite(img,'simu_brainweb_b3n1_seg.nii');
